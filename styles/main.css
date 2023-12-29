@@ -1,0 +1,33 @@
+header {
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 88px;
+    padding-right: 88px;
+    margin: 0 auto;
+}
+
+.header .header-section {
+    width: 33%;
+}
+
+.header-section.logo-section {
+    display: flex;
+    justify-content: center;
+}
+
+.header-section.auth-section {
+    display: flex;
+    justify-content: end;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1.3125rem;
+}
